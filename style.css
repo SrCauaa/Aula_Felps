@@ -1,0 +1,102 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: green ;
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 2rem;
+    z-index: 1;
+    
+}
+
+header span {
+    position: fixed;
+    top: 1rem;
+    left: 10%;
+}
+
+header ul {
+    position: fixed;
+    margin: 0px;
+    left: 30%;
+    top: 1rem;
+}
+
+header ul li {
+    margin-left: 2rem;
+    display: inline-block;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    margin-top: 6rem;
+    height: 512px;
+}
+
+section{
+    height: 30rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#home img {
+    width: 100%;
+    height: 20rem;
+
+}
+
+#home div {
+    position: absolute;
+    top: 20rem;
+    left: 40%;
+    width: 50%;
+    height: 2.5rem;
+    background-color: rgba(0, 0 , 0, 0.40);
+    color: white;
+    padding: 1rem;
+}   
+
+#sobre img {
+    width: 20%;
+    height: 20rem;
+    float: right;
+
+}
+
+.pessoa-imagens {
+    width: 20%;
+    height: 10rem;
+    display: inline-block;
+    margin-left: 10%;
+    
+}
+
+.pessoa-imagens img {
+    width: 100%;
+    height: 15rem;
+    border-radius: 50rem;
+}
+
+#contato {
+   text-align: center;
+   height: 512px;
+}
+
+iframe {
+    float: right;
+    
+}
